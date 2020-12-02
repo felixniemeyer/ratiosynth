@@ -1,0 +1,26 @@
+body {
+    background-color: #123425;
+    font-family: monospace sans-serif;
+}
+#keyfield {
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    background-image:
+    linear-gradient(0deg, #80808080 50%, transparent 50%), 
+    linear-gradient(90deg, transparent 50%, #80808080 50%);
+}
+
+#starter {
+    position: absolute; 
+    line-height: 40vh;
+    left: 30%; 
+    top: 30%; 
+    height: 40%; 
+    width: 40%; 
+    background-color: #234741;
+}
+
+#starter:hover {
+    background-color: white;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "ratiosynth",
+  "version": "0.1.1",
+  "description": "a new kind of instrument",
+  "main": "main.js",
+  "scripts": {
+    "postinstall": "mkdir -p build/release ; mkdir build/dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "cp -f src/index.html build/release/ & npx webpack --config webpack-release.js",
+    "dev": "cp -f src/index.html build/dev/ & npx webpack --config webpack-dev.js"
+  },
+  "keywords": [
+    "instrument",
+    "music",
+    "web"
+  ],
+  "author": "felix paul niemeyer",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.9.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
