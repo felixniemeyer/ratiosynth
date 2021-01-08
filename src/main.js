@@ -1,6 +1,6 @@
 import './index.scss'
 
-const KEYS = 10
+const KEYS = 9
 const VOICES = 10
 
 window.addEventListener("load", () => {
